@@ -1,0 +1,33 @@
+@font-face{
+    font-family: coiny-regular;
+    src: url(fuente/coiny-regular.ttf);
+
+}
+
+
+@font-face{
+    font-family: Brotherhood_Script;
+    src: url(fuente/Brotherhood_Script.ttf) ;
+
+}
+
+@font-face{
+    font-family: Gratitude;
+    src: url(fuente/Gratitude.ttf);
+
+}
+
+
+
+@font-face{
+    font-family: MrDeHaviland;
+    src: url(fuente/MrDeHaviland.ttf) ;
+
+}
+
+
+@font-face{
+    font-family: HaloHandletter;
+    src: url(fuente/HaloHandletter.otf) ;
+
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+  <link rel="icon" type="imagen/jpg" href="imagen.jpg">
+	<title>I love you forever</title>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Roboto&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/fuentes.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css">
+  <script src="https://kit.fontawesome.com/f72fd89e78.js" crossorigin="anonymous"></script>
+</head>
+<body class="cuerpo" >
+
+  <div class="nube"></div>
+  <div class="nube"></div>
+  <div class="nube"></div>
+  <div class="nube"></div>
+  <div class="nube"></div>
+  <div class="nube"></div>
+ 
+
+
+<div id="particles-js" class="particulas"></div>
+
+<div class="layer" id="desaparecer">
+  <div class="balls"> 
+    <div class="heart">
+   
+    </div>
+    <div class="ball ball-1"></div>
+    <div class="ball ball-2"></div>
+    <div class="ball ball-3"></div>
+    <div class="ball ball-4"></div>
+  </div>
+
+</div>
+
+
+
+
+
+  <div class="contenedor " id="contenedor"   > 
+      <img class=" imagenpollito">
+      
+      <marquee class="marquee" SCROLLAMOUNT=3>
+        <span >Te deseo un feliz cumplea&ntilde;os y que todos los dias te sean especiales, lleno de buenas experiencias, de muchas alegrias, de buenas sorpresas, de buenas personas y de amor. </span>
+      </marquee>
+
+      <a href="img/album.jpg" target="_blank"><img src="img/album.jpg" class="album" > </a>
+
+
+      <audio  id="audio" ></audio>
+
+      <div class="cont-barras">
+        
+      <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+        <div class="item largo"></div>
+        <div class="item mediano"></div>
+    </div>
+
+    <div class="BarraProgreso">
+        <div id="BarraPogre" class="B_Progreso"></div>
+    </div>
+    
+   <div class="contenido-botones">
+      <div class="botones " id="cont_btn">
+
+          <span id="pause" class="botonpause "></span>
+
+
+          <span id="play" class="botonplay"></span>
+
+          
+      </div>
+   </div>
+
+
+
+<!-- 
+
+      <div class="player_controls">
+          <div class="player_btn player_btn-medium">
+              <img src="img/play.png" class="play-btn boton" type="button">
+              
+              <img src="img/pause.png" class="pause-btn hide boton"  type="button">
+             
+          </div>
+      </div> -->
+
+     
+    
+
+      <a href="#" id="btn_radio">
+        <div class="ceja ">
+            <div class="text" >Feliz&nbsp;Cumplea&ntilde;os</div>
+        </div>
+      </a>
+  </div>
+
+
+
+
+
+
+  <div class="modonoche">
+        <button class="switch" id="switch">
+          <span><i class="fas fa-sun"></i></span>
+          <span><i class="fas fa-moon"></i></span>
+        </button>
+  </div>
+
+
+<h1 class="nuevo" data-heading="BAJO EL MISMO CIELO">BAJO EL MISMO CIELO
+    
+</h1>
+  <img src="img/carta.png" alt="" class="imagenVideos"  >
+
+      
+ 
+
+
+<h1 class="menu2">
+ Mi amor por ti <br> 
+siempre crecera <br> </h1>
+
+<h1 
+class="menu1">
+
+
+ 	<div id="box"> 
+        <span class="txt">I</span>
+        <span class="♥">♥</span>
+        <span class="txt">love you Neri</span>
+  </div>
+   
+ 
+  <img src="img/carta.png" alt="" class="imagenCarta" onClick="boton()" type="button">
+
+</h1>
+   
+
+  <script>
+      function boton(){
+        swal({
+          
+          title: "El día que todo comenzo",
+          content: {
+            element: "input",
+           
+            attributes: {
+              type: "date", 
+            },
+          },
+          
+          icon: "warning",
+          button: {
+            text: "Aceptar",
+            closeModal: false,
+          },
+          dangerMode: true,
+        })
+        
+        .then((value) => {
+   
+        if (value =="2016-03-13" ) {
+        swal({
+        text:  "Excelente ♥",
+        icon: "success",
+        timer: 3000
+        
+        }).then(function(){ 
+          window.location.href= "carta.html";
+        });
+     
+        } else {
+        swal('Incorrecto :c',{
+        icon:"error",
+        timer:4000
+        });    
+        }
+    });
+    }
+  </script>
+
+
+
+<div class="mascosasi">
+
+ 	  <div class=" "> 
+        <span class="corazoni"> &#x2665; </span>
+          <br>
+       <span class="textoabajo">Tienes la facilidad de <br> alterar mi coraz&oacute;n</span> 
+     </div>
+</div>
+ 
+<div class="mascosas">
+
+ 	  <div class=" "> 
+        <span class="corazon"> &#x2665; </span>
+    <br>
+       <span class="textoabajo">Con solo rodearme <br> con tus manos </span> 
+     </div>
+</div>
+ 
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/bootstrap-slider.min.js" 
+></script>
+<script type="text/javascript" src="js/audio.js" 
+></script>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+<script src="js/main.js" type="text/javascript"></script>
+</html>
